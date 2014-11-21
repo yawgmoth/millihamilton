@@ -67,12 +67,6 @@
     (groundpiece 
       (type "solid")
       (surface 
-        (image "groundpieces/solid/industrial/steel4")
-        (modifier "ROT0"))
-      (position 32 514 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
       (position 578 479 0))
@@ -95,16 +89,64 @@
         (modifier "ROT90"))
       (position 574 -6 0))
     (groundpiece 
-      (type "solid")
+      (type "bridge")
       (surface 
-        (image "groundpieces/solid/industrial/steel4")
+        (image "groundpieces/bridge/misc/bridge_right")
         (modifier "ROT0"))
-      (position 232 458 0))
+      (position 40 575 0))
     (groundpiece 
-      (type "solid")
+      (type "bridge")
       (surface 
-        (image "groundpieces/solid/industrial/steel4")
+        (image "groundpieces/bridge/misc/bridge_right")
         (modifier "ROT0"))
-      (position 382 415 0))))
+      (position 98 546 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 154 517 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 212 488 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 327 431 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 269 460 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 439 374 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 381 403 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 460 364 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 518 335 0))))
 
 ;; EOF ;;
