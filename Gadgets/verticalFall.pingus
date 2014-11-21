@@ -135,6 +135,12 @@
       (surface 
         (image "groundpieces/solid/crystal/rectsolid")
         (modifier "ROT0"))
-      (position 47 555 0))))
+      (position 47 555 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+      (position 39 2 0))))
 
 ;; EOF ;;
