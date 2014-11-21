@@ -294,12 +294,6 @@
     (groundpiece 
       (type "solid")
       (surface 
-        (image "groundpieces/solid/industrial/steel1")
-        (modifier "ROT0"))
-      (position 1110 78 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
         (image "groundpieces/solid/industrial/steel2")
         (modifier "ROT0"))
       (position 1156 78 0))
@@ -345,6 +339,12 @@
       (surface 
         (image "groundpieces/solid/industrial/steel2")
         (modifier "ROT0"))
-      (position 219 177 0))))
+      (position 219 177 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 1074 78 0))))
 
 ;; EOF ;;

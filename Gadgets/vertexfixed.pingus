@@ -88,7 +88,7 @@
       (surface 
         (image "groundpieces/solid/industrial/steel2")
         (modifier "ROT0"))
-      (position 1156 191 0))
+      (position 1191 191 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -294,15 +294,9 @@
     (groundpiece 
       (type "solid")
       (surface 
-        (image "groundpieces/solid/industrial/steel1")
-        (modifier "ROT0"))
-      (position 1110 78 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
         (image "groundpieces/solid/industrial/steel2")
         (modifier "ROT0"))
-      (position 1156 78 0))
+      (position 1192 97 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -326,6 +320,18 @@
       (surface 
         (image "groundpieces/transparent/halloween/kirby1")
         (modifier "ROT0"))
-      (position 7 258 0))))
+      (position 7 258 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel1")
+        (modifier "ROT0"))
+      (position 1131 254 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 1078 78 0))))
 
 ;; EOF ;;

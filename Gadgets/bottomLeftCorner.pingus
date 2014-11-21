@@ -21,25 +21,25 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position -6 159 0))
+      (position 0 155 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position -4 324 0))
+      (position 0 310 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position -4 -2 0))
+      (position 0 -2 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position -2 487 0))
+      (position 1 465 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -65,46 +65,82 @@
         (modifier "ROT0"))
       (position 31 605 0))
     (groundpiece 
-      (type "solid")
+      (type "bridge")
       (surface 
-        (image "groundpieces/solid/industrial/steel4")
+        (image "groundpieces/bridge/misc/bridge_right")
         (modifier "ROT0"))
-      (position 32 514 0))
+      (position 40 575 0))
     (groundpiece 
-      (type "solid")
+      (type "bridge")
       (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT90"))
-      (position 578 479 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT90"))
-      (position 574 151 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT90"))
-      (position 576 316 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT90"))
-      (position 574 -6 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel4")
+        (image "groundpieces/bridge/misc/bridge_right")
         (modifier "ROT0"))
-      (position 232 458 0))
+      (position 98 546 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 154 517 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 212 488 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 327 431 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 269 460 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 439 374 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 381 403 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 460 364 0))
+    (groundpiece 
+      (type "bridge")
+      (surface 
+        (image "groundpieces/bridge/misc/bridge_right")
+        (modifier "ROT0"))
+      (position 518 335 0))
     (groundpiece 
       (type "solid")
       (surface 
-        (image "groundpieces/solid/industrial/steel4")
-        (modifier "ROT0"))
-      (position 382 415 0))))
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 576 151 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 576 -3 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 576 266 0))))
 
 ;; EOF ;;
