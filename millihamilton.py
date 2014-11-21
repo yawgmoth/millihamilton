@@ -90,32 +90,37 @@ def main(fname):
         if i == 0:
             vertex = "*"
             vertex1 = "."
-        lmap[(2*n,i+n)] = vertex
-        lmap[(2*n+i+2,n-i-1)] = "D"
-        lmap[(2*n+1,i+n)] = vertex1
+        lmap[(2*n+1,i+n)] = vertex
+        lmap[(2*n+i+3,n-i-1)] = "D"
+        lmap[(2*n+2,i+n)] = vertex1
         lmap[(i,3*n-i-1)] = "U"
-        lmap[(n+i,2*n+i)] = "L"
-        lmap[(2*n,i)] = "="
+        lmap[(n+i+1,2*n+i)] = "L"
         lmap[(2*n+1,i)] = "="
-        lmap[(2*n+2+i,n+i)] = "<"
+        lmap[(2*n+2,i)] = "="
+        lmap[(2*n+3+i,n+i)] = "<"
+        
+        lmap[(n,n+i)] = "/"
         for j in xrange(n):
-             lmap[(i+n,j+n)] = str(matrix[i][j])
+             lmap[(i+n+1,j+n)] = str(matrix[i][j])
              lmap[(i,j+n)] = "|"
-             lmap[(i+n,j)] = "="
+             lmap[(i+n+1,j)] = "="
 
         for j in xrange(i):
              lmap[(j,i)] = "|"
              lmap[(n-i+j,2*n+i)] = "="
-             lmap[(n+j,2*n+i)] = "="
-             lmap[(n+i,2*n+j)] = "?"
-             lmap[(2*n+j+2,n-i-1)] = "="
-             lmap[(2*n+2+j,n+i)] = "-"
-             lmap[(2*n+2+i,n-i+j)] = "|"
-             lmap[(2*n+2+i,n+j)] = "|"
+             lmap[(n+j+1,2*n+i)] = "="
+             lmap[(n+i+1,2*n+j)] = "!"
+             lmap[(2*n+j+2+1,n-i-1)] = "="
+             lmap[(2*n+2+j+1,n+i)] = "-"
+             lmap[(2*n+2+i+1,n-i+j)] = "!"
+             lmap[(2*n+2+i+1,n+j)] = "!"
 
         for j in xrange(n-i-1):
              lmap[(j,2*n+i)] = "|"
              lmap[(j+i+1,i)] = "="
+        lmap[(n,2*n+i)] = "="
+        lmap[(n,i)] = "="
+        
 
 
     for y in xrange(3*n+2):
@@ -127,11 +132,13 @@ def main(fname):
         print
     matrixstr = ";".join(map(lambda r: ",".join(map(str, r)), matrix))
     
-    outf = open("%d_%s"%(n, md5.new(matrixstr).hexdigest()), "w")
+    outf = open("%d_%s.pingus"%(n, md5.new(matrixstr).hexdigest()), "w")
     print >> outf, gadgets.HEADER%(input, n+1, n+1, n, n, 3*n, (n*3+5)*620, (n*3+5)*650)
     for (x,y) in lmap:
         if lmap[(x,y)] in gadgets.GADGETMAP:
             print >>outf, moveto(gadgets.GADGETMAP[lmap[(x,y)]], (x*620,y*650))
+        else:
+            print "missing gadget for", lmap[(x,y)]
     print >> outf, "))"
     outf.close()
     
