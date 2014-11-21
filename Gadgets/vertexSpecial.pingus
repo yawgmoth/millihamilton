@@ -341,30 +341,18 @@
         (modifier "ROT0"))
       (position 356 375 0)
       (owner-id 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/crystal/smallsolid")
-        (modifier "ROT0"))
-      (position 268 328 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/crystal/smallsolid")
-        (modifier "ROT0"))
-      (position 267 296 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/crystal/smallsolid")
-        (modifier "ROT0"))
-      (position 266 266 0))
     (prefab 
       (name "prefabs/entrances/desert")
       (position 141 224 0)
       (overrides 
         (release-rate 50)
         (direction "misc")
-        (owner-id 0)))))
+        (owner-id 0)))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel2")
+        (modifier "ROT0"))
+      (position 219 177 0))))
 
 ;; EOF ;;
