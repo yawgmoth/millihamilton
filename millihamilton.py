@@ -124,7 +124,7 @@ def main(fname):
 
 
     for y in xrange(3*n+2):
-        for x in xrange(3*n+2):
+        for x in xrange(3*n+3):
             if (x,y) in lmap:
                 print lmap[(x,y)],
             else:
@@ -136,10 +136,10 @@ def main(fname):
     print >> outf, gadgets.HEADER%(input, n+1, n+1, n, n, 3*n, (n*3+5)*620, (n*3+5)*650)
     for (x,y) in lmap:
         if lmap[(x,y)] in gadgets.GADGETMAP:
-            print >>outf, moveto(gadgets.GADGETMAP[lmap[(x,y)]], (x*620,y*650))
+            print >>outf, moveto(gadgets.GADGETMAP[lmap[(x,y)]], (x*620+200,y*650+200))
         else:
             print "missing gadget for", lmap[(x,y)]
-    print >> outf, "))"
+    print >> outf, "))\n\n;;EOF;;"
     outf.close()
     
         

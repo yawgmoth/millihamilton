@@ -15,10 +15,7 @@
       (climber 1)
       (digger 9))
     (levelsize 620 650))
-  (objects 
-    (solidcolor-background 
-      (position 2516 1531 -1000)
-      (colori 0 0 0 255))
+  (objects    
     (groundpiece 
       (type "solid")
       (surface 
