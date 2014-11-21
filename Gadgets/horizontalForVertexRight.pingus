@@ -1,0 +1,47 @@
+(pingus-level 
+  (version 3)
+  (head 
+    (license "GPLv3+")
+    (levelname "")
+    (description "")
+    (author "")
+    (number-of-pingus 4)
+    (number-to-save 4)
+    (time -1)
+    (music "")
+    (actions 
+      (basher 3)
+      (bridger 3)
+      (climber 1)
+      (digger 9))
+    (levelsize 620 650))
+  (objects 
+    (solidcolor-background 
+      (position 2516 1531 -1000)
+      (colori 0 0 0 255))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 161 76 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 320 76 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 459 75 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT0"))
+      (position 1 76 0))))
+
+;; EOF ;;

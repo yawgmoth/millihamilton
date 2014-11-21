@@ -41,31 +41,13 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position -6 2 0))
+      (position -4 -2 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
       (position -2 487 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT0"))
-      (position 143 2 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT0"))
-      (position 303 2 0))
-    (groundpiece 
-      (type "solid")
-      (surface 
-        (image "groundpieces/solid/industrial/steel3")
-        (modifier "ROT0"))
-      (position 455 1 0))
     (groundpiece 
       (type "solid")
       (surface 
@@ -95,12 +77,42 @@
       (surface 
         (image "groundpieces/solid/industrial/steel4")
         (modifier "ROT0"))
-      (position 711 480 0))
+      (position 32 514 0))
     (groundpiece 
-      (type "bridge")
+      (type "solid")
       (surface 
-        (image "groundpieces/bridge/misc/bridge_right")
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 578 479 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 574 151 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 576 316 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel3")
+        (modifier "ROT90"))
+      (position 574 -6 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel4")
         (modifier "ROT0"))
-      (position 35 574 0))))
+      (position 232 458 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel4")
+        (modifier "ROT0"))
+      (position 382 415 0))))
 
 ;; EOF ;;
