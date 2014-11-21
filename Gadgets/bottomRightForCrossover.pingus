@@ -51,6 +51,36 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
-      (position 576 -14 0))))
+      (position 576 -14 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/smallsolid")
+        (modifier "ROT0"))
+      (position 547 228 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+      (position 513 111 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel5")
+        (modifier "ROT0"))
+      (position -5 0 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+      (position 240 108 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+      (position 299 163 0))))
 
 ;; EOF ;;

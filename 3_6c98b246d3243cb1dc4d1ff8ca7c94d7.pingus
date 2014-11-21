@@ -695,13 +695,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 4170 5304 0))
+        (position 4175 5304 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 4329 5304 0))
+        (position 4334 5304 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 4433 5166 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 4430 4898 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3961 5023 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3967 5305 0))
 
     (groundpiece 
       (type "transparent")
@@ -2074,13 +2098,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 6650 2704 0))
+        (position 6655 2704 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 6809 2704 0))
+        (position 6814 2704 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6913 2566 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6910 2298 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6441 2423 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6447 2705 0))
 
     (groundpiece 
       (type "solid")
@@ -2772,13 +2820,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7270 3354 0))
+        (position 7275 3354 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7429 3354 0))
+        (position 7434 3354 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7533 3216 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7530 2948 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7061 3073 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7067 3355 0))
 
     (groundpiece 
       (type "solid")
@@ -3219,6 +3291,36 @@
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
         (position 3256 4086 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/smallsolid")
+        (modifier "ROT0"))
+        (position 3227 4328 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3193 4211 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel5")
+        (modifier "ROT0"))
+        (position 2675 4100 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 2920 4208 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 2979 4263 0))
 
     (groundpiece 
       (type "solid")
@@ -3348,6 +3450,36 @@
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
         (position 3876 4736 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/smallsolid")
+        (modifier "ROT0"))
+        (position 3847 4978 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3813 4861 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel5")
+        (modifier "ROT0"))
+        (position 3295 4750 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 3540 4858 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 3599 4913 0))
 
     (groundpiece 
       (type "solid")
@@ -3438,13 +3570,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7270 2704 0))
+        (position 7275 2704 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7429 2704 0))
+        (position 7434 2704 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7533 2566 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7530 2298 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7061 2423 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7067 2705 0))
 
     (groundpiece 
       (type "solid")
@@ -4650,6 +4806,36 @@
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT90"))
         (position 4496 5386 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/smallsolid")
+        (modifier "ROT0"))
+        (position 4467 5628 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 4433 5511 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/steel5")
+        (modifier "ROT0"))
+        (position 3915 5400 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 4160 5508 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/industrial/joint3")
+        (modifier "ROT0"))
+        (position 4219 5563 0))
 
     (groundpiece 
       (type "solid")
@@ -5136,13 +5322,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 4170 4654 0))
+        (position 4175 4654 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 4329 4654 0))
+        (position 4334 4654 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 4433 4516 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 4430 4248 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3961 4373 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3967 4655 0))
 
     (groundpiece 
       (type "solid")
@@ -5233,13 +5443,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 3550 4654 0))
+        (position 3555 4654 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 3709 4654 0))
+        (position 3714 4654 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3813 4516 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3810 4248 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3341 4373 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 3347 4655 0))
 
     (groundpiece 
       (type "solid")
@@ -5330,13 +5564,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7270 2054 0))
+        (position 7275 2054 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7429 2054 0))
+        (position 7434 2054 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7533 1916 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7530 1648 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7061 1773 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7067 2055 0))
 
     (groundpiece 
       (type "solid")
@@ -6115,13 +6373,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7270 1404 0))
+        (position 7275 1404 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 7429 1404 0))
+        (position 7434 1404 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7533 1266 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7530 998 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7061 1123 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 7067 1405 0))
 
     (groundpiece 
       (type "solid")
@@ -6676,13 +6958,37 @@
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 6650 2054 0))
+        (position 6655 2054 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-        (position 6809 2054 0))
+        (position 6814 2054 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6913 1916 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6910 1648 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6441 1773 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/crystal/rectsolid")
+        (modifier "ROT0"))
+        (position 6447 2055 0))
 
 ))
 
