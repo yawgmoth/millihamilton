@@ -86,11 +86,13 @@ def main(fname):
     for i in xrange(n):
         lmap[(i,i)] = ">"
         vertex = "V"
+        vertex1 = "v"
         if i == 0:
             vertex = "*"
+            vertex1 = "."
         lmap[(2*n,i+n)] = vertex
         lmap[(2*n+i+2,n-i-1)] = "D"
-        lmap[(2*n+1,i+n)] = vertex
+        lmap[(2*n+1,i+n)] = vertex1
         lmap[(i,3*n-i-1)] = "U"
         lmap[(n+i,2*n+i)] = "L"
         lmap[(2*n,i)] = "="
