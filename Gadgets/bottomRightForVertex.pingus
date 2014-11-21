@@ -15,31 +15,31 @@
       (climber 1)
       (digger 9))
     (levelsize 620 650))
-  (objects    
+  (objects 
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-      (position 161 76 0))
+      (position 154 76 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-      (position 320 76 0))
+      (position 313 76 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-      (position 459 75 0))
+      (position 452 75 0))
     (groundpiece 
       (type "solid")
       (surface 
         (image "groundpieces/solid/industrial/steel3")
         (modifier "ROT0"))
-      (position 1 76 0))
+      (position -6 76 0))
     (groundpiece 
       (type "solid")
       (surface 

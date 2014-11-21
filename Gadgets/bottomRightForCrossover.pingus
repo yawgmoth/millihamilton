@@ -81,6 +81,6 @@
       (surface 
         (image "groundpieces/solid/industrial/joint3")
         (modifier "ROT0"))
-      (position 299 163 0))))
+      (position 292 163 0))))
 
 ;; EOF ;;
