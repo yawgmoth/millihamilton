@@ -1,11 +1,11 @@
 # MILLI-Hamilton
 
-**M**arkus' and
-**I**rena's
-**L**emmings
-**L**evel
-**I**nstantiator
-for **Hamilton**ian cycles
+- <b>M</b>arkus' and
+- <b>I</b>rena's
+- <b>L</b>emmings
+- <b>L</b>evel
+- <b>I</b>nstantiator
+- for <b>Hamilton</b>ian cycles
 
 # Introduction
 
