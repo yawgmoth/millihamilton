@@ -1,11 +1,11 @@
 # MILLI-Hamilton
 
- - **M**arkus' and
- - **I**rena's
- - **L**emmings
- - **L**evel
- - **I**nstantiator
- - for **Hamilton**ian cycles
+**M**arkus' and
+**I**rena's
+**L**emmings
+**L**evel
+**I**nstantiator
+for **Hamilton**ian cycles
 
 # Introduction
 
@@ -15,7 +15,7 @@ In any case, it is possible to reduce any problem in NP to generalized lemmings.
 
 The reduction basically looks like this (for the complete graph with 3 vertices):
 
-![Reduction](../blob/master/level3.png?raw=true)
+![Reduction](../master/level3.png?raw=true)
 
 # Requirements
 
