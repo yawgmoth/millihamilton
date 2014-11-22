@@ -81,7 +81,7 @@ def main(fname):
         if not verify(matrix):
             print "Matrix is not square, aborting"
             sys.exit(-1)
-    n = len(matrix)
+    n = len(matrix)    
     lmap = {}
     for i in xrange(n):
         lmap[(i,i)] = ">"
@@ -101,7 +101,7 @@ def main(fname):
         
         lmap[(n,n+i)] = "/"
         for j in xrange(n):
-             lmap[(i+n+1,j+n)] = str(matrix[i][j])
+             lmap[(i+n+1,j+n)] = str(matrix[j][i])
              lmap[(i,j+n)] = "|"
              lmap[(i+n+1,j)] = "="
 
@@ -131,8 +131,8 @@ def main(fname):
                 print " ",
         print
     matrixstr = ";".join(map(lambda r: ",".join(map(str, r)), matrix))
-    
-    outf = open("%d_%s.pingus"%(n, md5.new(matrixstr).hexdigest()), "w")
+    fname = "%d_%s.pingus"%(n, md5.new(matrixstr).hexdigest())
+    outf = open(fname, "w")
     print >> outf, gadgets.HEADER%(input, n+1, n+1, n, n, 3*n, (n*3+5)*620, (n*3+5)*650)
     for (x,y) in lmap:
         if lmap[(x,y)] in gadgets.GADGETMAP:
@@ -141,6 +141,8 @@ def main(fname):
             print "missing gadget for", lmap[(x,y)]
     print >> outf, "))\n\n;;EOF;;"
     outf.close()
+    
+    print "Level written to", fname
     
         
 if __name__ == "__main__":
