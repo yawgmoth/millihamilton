@@ -13,6 +13,10 @@ Generalized Lemmings is NP-hard, as shown by Cormode  in [1]. Note, that his cla
 
 In any case, it is possible to reduce any problem in NP to generalized lemmings. We picked the directed Hamiltonian cycle problem, i.e. given a directed graph we can construct Lemmings levels that are solvable iff the graph has a directed Hamiltonian cycle. Since the original Lemmings is proprietary software and has severe restrictions on the level size, we actually use the free and open source clone Pingus [4] to demonstrate our reduction. This repository contains the script that generates Pingus levels from directed graphs. Pingus is not an exact clone, but we do not use any features it introduces over Lemmings.
 
+The reduction basically looks like this (for the complete graph with 3 vertices):
+
+![Reduction](../blob/master/level3.png?raw=true)
+
 # Requirements
 
  - Python 2.7
