@@ -1,11 +1,11 @@
 # MILLI-Hamilton
 
- - *M*arkus' and
- - *I*rena's
- - *L*emmings
- - *L*evel
- - *I*nstantiator
- - for *Hamilton*ian cycles
+ - **M**arkus' and
+ - **I**rena's
+ - **L**emmings
+ - **L**evel
+ - **I**nstantiator
+ - for **Hamilton**ian cycles
 
 # Introduction
 
